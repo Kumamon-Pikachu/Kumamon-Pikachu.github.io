@@ -2,7 +2,7 @@
 title: "钱江晚报：仁心仁术，他是擦亮职业崇高感的英雄"
 date: 2019-04-18T15:34:30-04:00
 categories:
-  - blog
+  - 博客
 tags:
   - Jekyll
   - update

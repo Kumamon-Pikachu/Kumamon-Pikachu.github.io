@@ -2,7 +2,7 @@
 title: "习近平同阿尔巴尼亚总统梅塔就中阿建交70周年互致贺电"
 date: 2019-04-18T15:34:30-04:00
 categories:
-  - blog
+  - 博客
 tags:
   - Jekyll
   - update
