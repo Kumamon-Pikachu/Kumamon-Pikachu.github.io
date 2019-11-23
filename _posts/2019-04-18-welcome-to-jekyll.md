@@ -1,8 +1,8 @@
 ---
-title: "热烈庆祝中华人民共和国成立70周年"
+title: "和国成立70周年"
 date: 2019-04-18T15:34:30-04:00
 categories:
-  - blog
+  - 博客
 tags:
   - Jekyll
   - update
