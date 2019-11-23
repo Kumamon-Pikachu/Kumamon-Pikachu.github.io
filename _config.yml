@@ -13,20 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kumamon_Pikachu
-email: ivsoul@outlook.com
+title: One More Step Further #Kumamon_Pikachu
+email: usernamel@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: dark #mint
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes # when use local Jekyll themes: theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes # remote theme is a must when you deploy your website.
+# theme: minimal-mistakes-jekyll #when use local Jekyll themes
 repository: Kumamon-Pikachu/Kumamon-Pikachu.github.io # 报错处理 Liquid Exception: No repo name found.
 github: [metadata] # maybe this can fix issues? with GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
 
@@ -61,7 +62,7 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "IVSOUL "
+  name   : "Keep Moving"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : “Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.”
   links:
