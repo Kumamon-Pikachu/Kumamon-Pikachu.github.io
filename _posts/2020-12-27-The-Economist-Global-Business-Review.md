@@ -7,7 +7,7 @@ tags:
   - 经济学人
   - 英语学习
 toc: true
-excerpt: "这里是摘要A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
+excerpt: "这里是摘要一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。"
 header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
