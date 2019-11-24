@@ -10,25 +10,25 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN" # "en-US"
 title                    : "One More Step Further"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Keep Moving"
+subtitle                 : Deadline Looms, Gotta Get Them All Done By Tonight. # site tagline that appears below site title in masthead
+name                     :
 description              : >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kumamon-pikachu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : Kumamon-Pikachu/Kumamon-Pikachu.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/kumamon_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 100
@@ -68,7 +68,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -160,7 +160,6 @@ footer:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
 exclude:
   - "*.sublime-project"
@@ -234,6 +233,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
 
@@ -246,7 +246,6 @@ whitelist:
   - jekyll-include-cache
   - jemoji
   - jekyll-remote-theme
-  - jekyll-admin
 
 
 # Archives
@@ -299,3 +298,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

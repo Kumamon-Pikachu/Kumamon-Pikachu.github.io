@@ -1,13 +1,11 @@
 ---
-title: "00000000000000000000000"
+title: "National Geographic Photographs"
 date: 2019-04-18T15:34:30-04:00
 categories:
-  - 测试一下中文分类可以多少汉字还能显示出来
+  - post
 tags:
   - Jekyll
   - update
-sidebar:
-  nav: "docs"
 toc: true
 classes: wide
 ---
