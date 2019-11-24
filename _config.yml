@@ -113,7 +113,7 @@ author:
   name             : "Keep Moving"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
-  location         : "Somewhere"
+  location         : "China Mainland"
   email            : # username@outlook.com
   links:
     - label: "Email"
