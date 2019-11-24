@@ -13,23 +13,43 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "zh-CN" # "en-US"
 title: One More Step Further #Kumamon_Pikachu
 email: usernamel@outlook.com
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 100
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: dark #mint
+minimal_mistakes_skin: default #dark #mint
 search: true
 
 # Build settings
-markdown: kramdown # markdown 
 remote_theme: mmistakes/minimal-mistakes # remote theme is a must when you deploy your website.
 # theme: minimal-mistakes-jekyll #when use local Jekyll themes
 repository: Kumamon-Pikachu/Kumamon-Pikachu.github.io # 报错处理 Liquid Exception: No repo name found.
 github: [metadata] # maybe this can fix issues? with GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Outputting
 permalink: /:categories/:title/
@@ -110,6 +130,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+   # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 category_archive:
   type: liquid

@@ -6,6 +6,13 @@ categories:
 tags:
   - 杰克尔
   - 版本更新
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
 ---
 
 ​		2019年5月，中共中央办公厅、国务院办公厅印发了《关于隆重庆祝中华人民共和国成立70周年广泛组织开展“我和我的祖国”群众性主题宣传教育活动的通知》，对庆祝中华人民共和国成立70周年群众性主题宣传教育活动作出安排部署。 [4] 

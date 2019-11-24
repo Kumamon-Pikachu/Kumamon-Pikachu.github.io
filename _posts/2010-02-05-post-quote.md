@@ -5,6 +5,9 @@ categories:
 tags:
   - Post Formats
   - quote
+header:
+  image: /assets/images/unsplash-image-1.jpg
+  image_description: "A description of the image"
 ---
 
 > Only one thing is impossible for God: To find any sense in any copyright law on the planet.
