@@ -10,15 +10,15 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                    : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN" # "en-US"
-title                    : "One More Step Further"
+title                    : "一个人的村庄" # "One More Step Further"
 title_separator          : "-"
-subtitle                 : Deadline Looms, Gotta Get Them All Done By Tonight. # site tagline that appears below site title in masthead
+subtitle                 : 我走的时候,我还不懂得怜惜。<br>我随便把一堵院墙推倒,砍掉那些树,拆毁圈棚和炉灶,我想它们没用处了,我去的地方会有许多新东西。 # Deadline Looms, Gotta Get Them All Done By Tonight. # site tagline that appears below site title in masthead
 name                     :
 description              : >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this

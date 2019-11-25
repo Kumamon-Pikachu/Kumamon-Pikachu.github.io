@@ -1,6 +1,6 @@
 main:
   - title: "主页"
-    url: /
+    url: /home/
   - title: "文章"
     url: /posts/
   - title: "分类"
