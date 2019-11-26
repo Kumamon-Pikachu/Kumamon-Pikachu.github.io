@@ -1,8 +1,10 @@
 main:
   - title: "主页"
-    url: /home/
+    url: /
   - title: "文章"
     url: /posts/
+  - title: "收藏"
+    url: /home/ #这个是之前计划的主页，打算变更为收藏，
   - title: "分类"
     url: /categories/
   - title: "标签"
