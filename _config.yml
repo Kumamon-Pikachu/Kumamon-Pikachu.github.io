@@ -113,7 +113,7 @@ author:
   name                   : "Keep Moving"
   avatar                 : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio                    : “Deadline Looms, Gotta Get Them All Dead By Tonight.”
-  location               : "37°03'54.13'',115°36'53.06''"
+  location               : "37°36'53.06''"
   email                  : # username@outlook.com
   links:
     - label: "Email"
@@ -124,16 +124,16 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      #url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      #url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      #url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -146,7 +146,7 @@ footer:
       url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      #url: "https://github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
