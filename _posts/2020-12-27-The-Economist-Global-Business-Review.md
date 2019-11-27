@@ -1,13 +1,13 @@
 ---
 title: "熄灯之时_When the lights go out"
-date: 2019-04-18T15:34:30-04:00
+date: 2020-12-17
 categories:
   - 学习笔记
 tags:
   - 经济学人
   - 英语学习
 toc: true
-excerpt: "这里是摘要一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。"
+excerpt: "一个被韩国、中国和俄罗斯的耀眼光芒环绕的深渊，没有任何东西可从中逃脱。"
 header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
