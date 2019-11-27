@@ -2,9 +2,11 @@ main:
   - title: "主页"
     url: /
   - title: "文章"
-    url: /posts/
+    url: /recent/ #研究下怎么跳转到最新发布页面
   - title: "收藏"
-    url: /home/ #这个是之前计划的主页，打算变更为收藏，
+    url: /gallery/
+  - title: "时间"
+    url: /posts/
   - title: "分类"
     url: /categories/
   - title: "标签"
