@@ -2,8 +2,8 @@ main:
   - title: "主页"
     url: /
   - title: "文章"
-    url: /recent/ #研究下怎么跳转到最新发布页面
-  - title: "收藏"
+    url: /recent/
+  - title: "画册"
     url: /gallery/
   - title: "时间"
     url: /posts/
