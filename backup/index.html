@@ -2,13 +2,49 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
-title: Keep Moving
-excerpt: “Deadline Looms, Gotta Get Them All Dead By Tonight.”
+layout: splash
+author_profile: false
+title: 一个人的村庄
+
+excerpt:   我走的时候，我还不懂得怜惜曾经拥有的事物，我们随便把一堵院墙推倒，砍掉那些树，拆毁圈棚和炉灶，我们想它没用处了。我们搬去的地方会有许多新东西。一切都会再有的，随着日子一天天好转。
+
 header:
   overlay_image: /assets/images/TCP118v1_by_Tiziano_Consonni.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "EVERYTHING WE HEAR IS AN OPINION, NOT A FACT. EVERYTHING WE SEE IS A PERSPECTIVE, NOT THE TRUTH. ---Marcus Aurelius"
+
+feature_row:
+  - image_path: /assets/images/TCP118v1_by_Tiziano_Consonni.jpg
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read Morea"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/TCP118v1_by_Tiziano_Consonni.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/TCP118v1_by_Tiziano_Consonni.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read Mores"
+    btn_class: "btn--inverse"
 ---
-ttttttttttttttttttttttttttttttttt
+
+{% include feature_row %}
+
+{% include feature_row type="center" %}
+
+{% include feature_row type="right" %}
+
+{% include feature_row type="left" %}
+
+<figure>
+  <img src="/assets/images/TCP118v1_by_Tiziano_Consonni.jpg" alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>

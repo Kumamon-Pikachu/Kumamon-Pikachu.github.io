@@ -4,6 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+# 不要在配置文件中使用 tab 制表符,这将造成解析错误，或倒回到默认设置。请使用空格替代
 
 # Theme Settings
 #
